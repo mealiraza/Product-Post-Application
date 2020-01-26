@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/gridItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="175dp"
+        android:layout_height="250dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="10dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+
+
+            <ImageView
+                android:id="@+id/itemPic"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/for_sale"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bundle of Mangos"
+                android:layout_below="@id/itemPic"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemName"
+                android:text="$200"
+                android:textSize="15sp"
+                />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

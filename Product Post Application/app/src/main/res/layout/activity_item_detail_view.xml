@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailView">
+
+    <ImageView
+        android:id="@+id/itemPic"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        />
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemPic"
+        android:layout_margin="10dp"
+        >
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Cooler"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs.100"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/itemAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:: Awan town lahore"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/itemDis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is the room wind collor desin for most "
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/itemPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is the room wind collor desin for most "
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TableRow
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+
+        >
+        <Button
+            android:id="@+id/call"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:background="@drawable/background"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:text="Call"/>
+        <Button
+            android:id="@+id/mesg"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:background="@drawable/background"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="Message"/>
+
+    </TableRow>
+</RelativeLayout>

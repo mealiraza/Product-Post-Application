@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewItem">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/itemPic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quickadd"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <EditText
+                android:id="@+id/postName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Post Title"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                />
+
+            <Spinner
+                android:id="@+id/itemType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="phone"
+                android:hint="Item Price "
+
+                />
+
+            <EditText
+                android:id="@+id/num"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="phone"
+                android:hint="Phone"
+                android:maxLength="13"
+
+                />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:hint="Your Location"
+
+                />
+            <EditText
+                android:id="@+id/discription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:inputType="text"
+                android:hint="Post Discription"
+                />
+            <Button
+                android:id="@+id/postSubmitBtn"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"
+                android:text="POST"
+                />
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
