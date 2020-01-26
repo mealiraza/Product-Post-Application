@@ -1,4 +1,21 @@
 # Product-Post-Application
+#### This the ad posting ads items sell ads selling Posting application that is build in Java and xml in android studio IDE.
+#### Development Tools
+
+##### 1 Android Studio
+##### 1 Java and XML
+
+#### Cloud Services Using Firebase 
+
+##### Authentication 
+##### File store
+##### Database
+
+#### Libraries
+
+##### Lotti Animation
+##### Glid
+##### Firebase
 
 ## Login Screen
 <img src="/Login%20Screen.jpg" height="620" width="300"/>
